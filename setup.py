@@ -29,6 +29,10 @@ setup(
         'scikit-learn',
         'timm',
     ],
+    include_package_data=True,
+    package_data={
+        "": ["*.yml"],
+    },
     classifiers=[
         'Development Status :: 3 - Alpha',  
         'Intended Audience :: Developers', 
